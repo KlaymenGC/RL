@@ -101,7 +101,7 @@ class GridWorld():
         if state.terminal is True:
             probs[state.idx] = 1.0
 
-        #  else a determinstic transition to next state
+        #  else a deterministic transition to next state
         else:
             probs[next_state.idx] = 1.0
 

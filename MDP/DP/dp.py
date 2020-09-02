@@ -1,6 +1,6 @@
 import numpy as np
 
-from dp import GridWorld
+from gridworld import GridWorld
 
 
 def bellman(
